@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Github on  </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>/categories/github/index.xml/</link>
+    
+    
+    
+    <updated>Mon, 09 Feb 2015 00:04:11 -0800</updated>
+    
+    <item>
+      <title>Automated Deployments with Wercker</title>
+      <link>/posts/Automated-Deployments/</link>
+      <pubDate>Mon, 09 Feb 2015 00:04:11 -0800</pubDate>
+      
+      <guid>/posts/Automated-Deployments/</guid>
+      <description>
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Step 1&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Recent Content on  </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>/index.xml/</link>
+    
+    
+    
+    <updated>Mon, 09 Feb 2015 00:04:11 -0800</updated>
+    
+    <item>
+      <title>Automated Deployments with Wercker</title>
+      <link>/posts/Automated-Deployments/</link>
+      <pubDate>Mon, 09 Feb 2015 00:04:11 -0800</pubDate>
+      
+      <guid>/posts/Automated-Deployments/</guid>
+      <description>
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Step 1&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>/about/</link>
+      <pubDate>Tue, 03 Feb 2015 01:27:05 -0800</pubDate>
+      
+      <guid>/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a senior, major in Computer Science.&lt;/p&gt;
+
+&lt;p&gt;ME :: [C, Java, Python, FP, Golang] -&amp;gt; Coffee -&amp;gt; Code&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Build My Blog with Hugo</title>
+      <link>/posts/Build-My-Blog-with-Hugo/</link>
+      <pubDate>Mon, 02 Feb 2015 07:25:03 -0800</pubDate>
+      
+      <guid>/posts/Build-My-Blog-with-Hugo/</guid>
+      <description>
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Hello Hugo&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; is a static site generator written in &lt;a href=&#34;http://www.golang.org&#34;&gt;Go&lt;/a&gt;. It is awesome. Compared to &lt;a href=&#34;http://jekyllrb.com&#34;&gt;jekyll&lt;/a&gt; or other static site generator, it is light-weight.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;How it&amp;rsquo;s made&lt;/h2&gt;
+
+&lt;p&gt;There is a &lt;a href=&#34;http://gohugo.io/overview/quickstart/&#34;&gt;quick tutorial&lt;/a&gt; teach yourself how to deploy and generator with &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;UCSB Philosophy website is also build with &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. This &lt;a href=&#34;https://github.com/ucsbphil/philweb/blob/master/README.md&#34;&gt;README&lt;/a&gt; on its Github.com is also a good introdution.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_2&#34;&gt;Test on localhost&lt;/h3&gt;
+
+&lt;p&gt;Install Hugo, then run it from the command-line:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server --source=/path/to/project/folder --watch
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Every change when you save file, whole site will be generated again and refresh the browser. So you could see the changes immediately.&lt;/p&gt;
+
+&lt;p&gt;When you done with your test on localhost, run&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo --source=/path/to/project/folder/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;hugo will generate static web and substitute &lt;code&gt;localhost:1313&lt;/code&gt; with &lt;code&gt;baseurl&lt;/code&gt; into your &lt;code&gt;config.(yaml|toml|json)&lt;/code&gt; if it&amp;rsquo;s set up.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_3&#34;&gt;config.(yaml|toml|json)&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+contentdir: &amp;quot;content&amp;quot;
+layoutdir: &amp;quot;layouts&amp;quot;
+publishdir: &amp;quot;public&amp;quot;
+indexes:
+  category: &amp;quot;categories&amp;quot;
+baseurl : &amp;quot;http://web.cecs.pdx.edu/~jiangkai&amp;quot;
+languageCode : &amp;quot;en-us&amp;quot;
+title : &amp;quot;vectorijk&amp;quot;
+canonifyurls : true
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;canonifyurls&lt;/code&gt; is true, hugo will change &lt;code&gt;localhost:1313&lt;/code&gt; with &lt;code&gt;baseurl&lt;/code&gt; ; else will not.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;
+
+&lt;p&gt;Copy &lt;code&gt;public&lt;/code&gt; directory into your web server directory (like &lt;code&gt;public_html&lt;/code&gt;). Okay, it&amp;rsquo;s done.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_5&#34;&gt;TODO&lt;/h3&gt;
+
+&lt;p&gt;Write a &lt;code&gt;Makefiles&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
